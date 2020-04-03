@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="385928" started-at="2020-04-02T08:09:31Z" finished-at="2020-04-02T08:15:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="385928" started-at="2020-04-02T08:09:31Z" finished-at="2020-04-02T08:15:57Z">
+      <class name="tests.AddProduct">
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:tests.AddProduct@47af7f3d]" name="reportSetup" is-config="true" duration-ms="1482" started-at="2020-04-02T08:09:31Z" finished-at="2020-04-02T08:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AddProduct@47af7f3d]" name="setup" is-config="true" duration-ms="116490" started-at="2020-04-02T08:09:33Z" depends-on-methods="components.ExtnReports.reportSetup" finished-at="2020-04-02T08:11:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SearchProduct()[pri:0, instance:tests.AddProduct@47af7f3d]" name="SearchProduct" duration-ms="262842" started-at="2020-04-02T08:11:30Z" finished-at="2020-04-02T08:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.AddProduct@47af7f3d]" name="teardown" is-config="true" duration-ms="4664" started-at="2020-04-02T08:15:53Z" finished-at="2020-04-02T08:15:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="reportTeardown()[pri:0, instance:tests.AddProduct@47af7f3d]" name="reportTeardown" is-config="true" duration-ms="11" started-at="2020-04-02T08:15:57Z" depends-on-methods="components.BaseClass.teardown" finished-at="2020-04-02T08:15:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTeardown -->
+      </class> <!-- tests.AddProduct -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
