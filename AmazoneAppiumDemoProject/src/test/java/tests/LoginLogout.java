@@ -17,7 +17,8 @@ public class LoginLogout extends BaseClass {
     static Logger Log = LogManager.getLogger(LoginLogout.class);  
     @Test
     public void LoginTest() throws Exception {
-        TestLog=extent.createTest("Login Test", "Login & Logout");
+        
+            TestLog=extent.createTest(getClass().getEnclosingClass().getName(), "Login & Logout");
        
             TestLog.log(Status.INFO, "*** Login Test Started ***");
             Log.info("Login Test Started");
